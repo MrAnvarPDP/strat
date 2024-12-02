@@ -1,0 +1,46 @@
+.header {
+  background: #74c69d;
+  padding: 35px 0;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  cursor: pointer;
+}
+
+.header__menu {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.burger__btn {
+  display: none;
+  background-color: transparent;
+  border: none;
+}
+
+.header__link {
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 480px) {
+  .header__menu {
+    display: none;
+  }
+  .imgs {
+    display: flex;
+  }
+  .burger__btn {
+    display: block;
+  }
+}

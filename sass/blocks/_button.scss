@@ -1,0 +1,23 @@
+.btn {
+  padding: 10px 40px;
+  border-radius: 5px;
+  border: none;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.btn--light {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.btn--dark {
+  background: #212529;
+  color: #ffffff;
+  cursor: pointer;
+}
