@@ -211,6 +211,12 @@ a {
   .services__cards {
     flex-direction: column-reverse;
   }
+  .portfolio__list {
+    flex-wrap: wrap;
+  }
+  .portfolio__list img {
+    max-width: 100%;
+  }
 }
 .partners {
   margin-top: 60px;
@@ -479,4 +485,10 @@ a {
   text-underline-position: from-font;
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
+}
+
+.portfolio__list {
+  display: flex;
+  gap: 55px;
+  margin-bottom: 55px;
 }/*# sourceMappingURL=style.css.map */
