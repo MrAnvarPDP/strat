@@ -98,6 +98,10 @@ a {
   padding: 85px 82.87px;
 }
 
+.about-2 {
+  padding: 85px 82.87px;
+}
+
 .about__wrapper {
   display: flex;
   align-items: center;
@@ -184,6 +188,9 @@ a {
 
 @media only screen and (max-width: 480px) {
   .about {
+    padding: 30px 0;
+  }
+  .about-2 {
     padding: 30px 0;
   }
   .about__img {
@@ -491,4 +498,60 @@ a {
   display: flex;
   gap: 55px;
   margin-bottom: 55px;
+}
+
+.btn__cnt {
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  width: 575px;
+  height: 48px;
+  gap: 0px;
+  opacity: 0px;
+  color: #ffffff;
+  background: #212529;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 21px;
+}
+
+.cnt__input {
+  width: 575px;
+  height: 75px;
+  gap: 0px;
+  border-radius: 5px;
+  background: #eeeeee;
+  border: 1px solid #000000;
+  opacity: 0px;
+  padding-left: 10px;
+}
+
+.cnt__text {
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.cnt__input-2 {
+  width: 575px;
+  height: 38px;
+  gap: 0px;
+  border-radius: 5px;
+  background: #eeeeee;
+  border: 1px solid #000000;
+  opacity: 0px;
+  padding-left: 10px;
 }/*# sourceMappingURL=style.css.map */
